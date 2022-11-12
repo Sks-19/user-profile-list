@@ -1,0 +1,25 @@
+.cards {
+  display: grid;
+  justify-content: center;
+}
+
+p {
+  font-size: 0.8rem;
+  margin-bottom: 2%;
+}
+
+@media only screen and (min-width: 600px) {
+  .cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+  }
+}
